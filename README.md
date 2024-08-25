@@ -4,8 +4,7 @@ This is basic REST API (CRUD) to manipulate a list of products in the database.
 There is also login functionality ("/api/login") to protect some endpoints.
 
 - Categories should consist of a title and description fields.
-- You don’t need to create a CRUD for categories, so you may just fill this table with
-  some test data manually.
+- We just fill categories table with some test data manually.
 - Products consist of a title, description, SKU, and price fields.
 - SKU is an alphanumeric identification of the product in the catalog, it is unique
   and has exactly 8 characters.
