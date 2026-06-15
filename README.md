@@ -1,6 +1,6 @@
 ## Shopping Mall
 
-This is basic REST API (CRUD) to manipulate a list of products in the database.
+This is a basic REST API (CRUD) to manipulate a list of products in the database.
 There is also login functionality ("/api/login") to protect some endpoints.
 
 - Categories should consist of a title and description fields.
@@ -14,7 +14,7 @@ There is also login functionality ("/api/login") to protect some endpoints.
 ---
 **NOTE**
 
-**Please run this command to migrate tables and create Admin (email: admin@example.com, password: password)**
+**Please run this command to migrate tables and create an Admin (email: admin@example.com, password: password)**
 ```bash
 $ php artisan migrate --seed
 ```
